@@ -1,10 +1,28 @@
-# CoNR Dataset [中文版](https://github.com/P2Oileen/CoNR_Dataset#conr-数据集) [日本語版](https://github.com/P2Oileen/CoNR_Dataset#conr-データセット)
+# CoNR Dataset 
+[简体中文README](https://github.com/P2Oileen/CoNR_Dataset#conr-数据集) [日本語README](https://github.com/P2Oileen/CoNR_Dataset#conr-データセット)
+
 **[Google Drive Download Link](https://drive.google.com/drive/folders/1hadpzwt79SG8wS45_cbZKs9S5O0_nGlb?usp=share_link)**
 
 This dataset is collected and produced by the GitHub project: IJCAI2023-CoNR.
 This dataset consists of three parts: `annotation`, `model` and `motion`. This document is the collation instructions and agreement of the dataset. Original project address: [https://github.com/megvii-research/IJCAI2023-CoNR](https://github.com/megvii-research/IJCAI2023-CoNR).
 
 This dataset is for research use only, **by downloading you agree to our rules**. We sincerely appreciate the work of all community authors.
+
+## Data download and decompression
+Please download all data from [**Google Drive download link**](https://drive.google.com/drive/folders/1hadpzwt79SG8wS45_cbZKs9S5O0_nGlb?usp=share_link). Among them, `CoNR_Dataset_3Dmodel_only_a*` is the 3D model data, `CoNR_Dataset_motion_only_a*` is the motion data, and `CoNR_Dataset_annotation_only.tar.gz` is the annotation data of the 2D image.
+
+For data with multiple volumes, you need to connect them together before decompressing. Let's take 3D model data as an example:
+
+```
+cat CoNR_Dataset_3Dmodel_only_a* > model.tar.gz
+tar -zxvf model.tar.gz
+```
+
+For `CoNR_Dataset_annotation_only.tar.gz`, just decompress it directly
+
+```
+tar -zxvf CoNR_Dataset_annotation_only.tar.gz
+```
 
 ## 2D Image Annotation
 This part involves the contents of `annotation` folder.
@@ -57,12 +75,27 @@ Due to the unreachable authors of many contents and the lack of manpower in CoNR
 3. The motion data has not been carefully cleaned. Some .vmd files may be camera motion files or motion files of various accessories, please be careful to distinguish.
 
 # CoNR 数据集
-**[Google Drive 下载链接](https://drive.google.com/drive/folders/1hadpzwt79SG8wS45_cbZKs9S5O0_nGlb?usp=share_link)**
 
 本数据集由GitHub项目：IJCAI2023-CoNR收集并制作，由三个部分组成：`annotation`，`model`和`motion`。本文件为数据集的整理说明和君子协定。
 原项目地址：[https://github.com/megvii-research/IJCAI2023-CoNR](https://github.com/megvii-research/IJCAI2023-CoNR)。
 
 该数据集仅供研究使用，**下载即代表您同意我们的规则**。我们真诚地感谢所有社区作者的工作。
+
+## 数据下载和解压
+所有数据请从[**Google Drive 下载链接**](https://drive.google.com/drive/folders/1hadpzwt79SG8wS45_cbZKs9S5O0_nGlb?usp=share_link)下载。其中，`CoNR_Dataset_3Dmodel_only_a*`为3D模型数据，`CoNR_Dataset_motion_only_a*`为动作数据，`CoNR_Dataset_annotation_only.tar.gz`为2D图像的标注数据。
+
+对于有多个分卷的数据，你需要将它们连接到一起后再进行解压。我们以3D模型数据举例而言：
+
+```
+cat CoNR_Dataset_3Dmodel_only_a* > model.tar.gz
+tar -zxvf model.tar.gz
+```
+
+对于`CoNR_Dataset_annotation_only.tar.gz`，直接解压即可
+
+```
+tar -zxvf CoNR_Dataset_annotation_only.tar.gz
+```
 
 ## 2D图像标注
 此部分涉及到`annotation`文件夹下的内容。
@@ -116,7 +149,6 @@ Due to the unreachable authors of many contents and the lack of manpower in CoNR
 3. 动作数据未进行仔细的清洗，有一些.vmd文件可能是相机动作文件或者各类配件的动作文件，请小心判别。
 
 # CoNR データセット
-**[Google Drive ダウンロードリンク](https://drive.google.com/drive/folders/1hadpzwt79SG8wS45_cbZKs9S5O0_nGlb?usp=share_link)**
 
 このファイルは、OpenAIのGPT-4（ChatGPT）によって翻訳されました。
 
@@ -124,6 +156,22 @@ Due to the unreachable authors of many contents and the lack of manpower in CoNR
 元のプロジェクトのアドレス：[https://github.com/megvii-research/IJCAI2023-CoNR](https://github.com/megvii-research/IJCAI2023-CoNR)。
 
 このデータセットは研究利用のみであり、**ダウンロードすることで私たちのルールに同意することになります**。すべてのコミュニティ著者の努力に心から感謝します。
+
+## データのダウンロードと解凍
+[**Google ドライブ ダウンロード リンク**](https://drive.google.com/drive/folders/1hadpzwt79SG8wS45_cbZKs9S5O0_nGlb?usp=share_link) からすべてのデータをダウンロードしてください。 このうち、`CoNR_Dataset_3Dmodel_only_a*`は 3D モデル データ、`CoNR_Dataset_motion_only_a*`はモーション データ、`CoNR_Dataset_annotation_only.tar.gz`は 2D 画像のアノテーション データです。
+
+複数のボリュームを持つデータの場合、解凍する前にそれらを結合する必要があります。 例として 3D モデル データを見てみましょう。
+
+```
+cat CoNR_Dataset_3Dmodel_only_a* > model.tar.gz
+tar -zxvf model.tar.gz
+```
+
+CoNR_Dataset_annotation_only.tar.gz は直接解凍するだけ
+
+```
+tar -zxvf CoNR_Dataset_annotation_only.tar.gz
+```
 
 ## 2D画像アノテーション
 この部分には、`annotation`フォルダの内容が含まれます。
