@@ -1,4 +1,4 @@
-# CoNR Dataset
+# CoNR Dataset [中文版](https://github.com/P2Oileen/CoNR_Dataset#conr-数据集) [日本語版](https://github.com/P2Oileen/CoNR_Dataset#conr-データセット)
 **[Google Drive Download Link](https://drive.google.com/drive/folders/1hadpzwt79SG8wS45_cbZKs9S5O0_nGlb?usp=share_link)**
 
 This dataset is collected and produced by the GitHub project: IJCAI2023-CoNR.
@@ -55,9 +55,6 @@ Due to the unreachable authors of many contents and the lack of manpower in CoNR
 1. Please respect the labor achievements of MMD authors and follow the general rules agreed in the community. Specifically, when you use a motion or a model, please be sure to follow the original author's requirements (such as credit, etc.) in the README. CoNR authors are not responsible for any problems caused by improper use.
 2. MMD model data and action data do not have a very common format, and various problems may occur. However, since the training of CoNR only uses these data to generate UDP and images, and does not require very strict motion accuracy requirements, I did not make modifications. If you have high requirements in this area, please filter or manually repair the model.
 3. The motion data has not been carefully cleaned. Some .vmd files may be camera motion files or motion files of various accessories, please be careful to distinguish.
-
-
----
 
 # CoNR 数据集
 **[Google Drive 下载链接](https://drive.google.com/drive/folders/1hadpzwt79SG8wS45_cbZKs9S5O0_nGlb?usp=share_link)**
@@ -117,8 +114,6 @@ Due to the unreachable authors of many contents and the lack of manpower in CoNR
 1. 请尊重MMD社区工作者的劳动成果，遵循圈内协定的普遍规则。具体而言，当您使用某个动作或模型时，请务必遵循README中的原作者要求（如credit等）。如果因为不当使用导致任何问题，CoNR作者不承担任何责任。
 2. MMD模型数据和动作数据不具有普遍格式，可能出现各种问题。然而，鉴于CoNR的训练只使用这些数据生成UDP和图像，不需要非常严格的动作准确性要求，我并没有做修改。如果您对这方面要求比较高，请重新筛选一遍，或者手动修一下模型。
 3. 动作数据未进行仔细的清洗，有一些.vmd文件可能是相机动作文件或者各类配件的动作文件，请小心判别。
-
----
 
 # CoNR データセット
 **[Google Drive ダウンロードリンク](https://drive.google.com/drive/folders/1hadpzwt79SG8wS45_cbZKs9S5O0_nGlb?usp=share_link)**
